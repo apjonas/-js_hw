@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>HomeWork #1. Profile</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<h1>PROFILE</h1>
+<main>
+    <fieldset>
+        <legend><h2>Личные данные</h2></legend>
+        <div>
+            <h3>Введите данные:</h3>
+        </div>
+        <div>
+            <label for="surname"></label>
+            <input type="text" id="surname" title="Введите Фамилию" placeholder="Фамилия" required>
+        </div>
+        <div>
+            <label for="firstName"></label>
+            <input type="text" id="firstName" title="Введите Имя" placeholder="Имя" required>
+        </div>
+        <div>
+            <label for="secondName"></label>
+            <input type="text" id="secondName" title="Введите Отчество" placeholder="Отчество" required>
+        </div>
+        <div>
+            <label for="age"></label>
+            <input type="text" id="age" name="Взраст" size="7" maxlength="3" title="Введите Ваш возраст" placeholder="Возраст" required>
+        </div>
+        <div>
+            <label for="gent"></label>
+            <input id="gent" type="text" title="Напишите Ваш пол: м/ж" placeholder="Ваш пол">
+        </div>
+        <div class="buttons">
+            <button onclick="profile()">Отправить</button>
+        </div>
+        <div><h3>Результат: <output id="result"></output></h3></div>
+    </fieldset>
+</main>
+<script src="profile.js"></script>
+</body>
+</html>
