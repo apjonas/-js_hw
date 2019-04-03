@@ -1,0 +1,40 @@
+button {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    margin: 6px;
+    border-radius: 5px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 7px black;
+}
+.center {
+    width: 265px;
+    height: 256px;
+    border: solid 3px black;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+button:hover {
+    border: solid 2px black;
+}
+#display {
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
+    border: solid 2px black;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+#archiv {
+    width: 250px;
+    height: 25px;
+    font-size: 10px;
+    margin: 5px;
+}
+h6 {
+    text-decoration: overline;
+}
+h1 {
+    text-decoration: underline;
+}

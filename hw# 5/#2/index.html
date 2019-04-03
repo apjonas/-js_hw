@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<h1>Simple Calculator</h1>
+<div class="center">
+    <div id="archiv"></div>
+    <div id="display">0</div>
+    <div class="calc">
+        <button id="clear_all" onclick="clearAll()" title="clearResult">CA</button>
+        <button id="back_space" onclick="backSpace()" title="backspace">BS</button>
+        <button id="clear_LS" onclick="clear_local()" title="clear localStorage">CLS</button>
+        <button id="split" onclick="operation_split()">/</button>
+        <button id="number_7" onclick="numeric_7()">7</button>
+        <button id="number_8" onclick="numeric_8()">8</button>
+        <button id="number_9" onclick="numeric_9()">9</button>
+        <button id="multi" onclick="operation_multiply()">*</button>
+        <button id="number_4" onclick="numeric_4()">4</button>
+        <button id="number_5" onclick="numeric_5()">5</button>
+        <button id="number_6" onclick="numeric_6()">6</button>
+        <button id="plus" onclick="operation_plus()">+</button>
+        <button id="number_1" onclick="numeric_1()">1</button>
+        <button id="number_2" onclick="numeric_2()">2</button>
+        <button id="number_3" onclick="numeric_3()">3</button>
+        <button id="minus" onclick="operation_minus()">-</button>
+        <button id="number_0" onclick="numeric_0()">0</button>
+        <button id="equal" onclick="operation_equal()">=</button>
+    </div>
+</div>
+<script src="script/script.js"></script>
+<h6>designed by Artem Ponomarev</h6>
+</body>
+</html>
